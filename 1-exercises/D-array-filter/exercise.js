@@ -5,10 +5,15 @@
   - Finish the statement on line 11 to produce an array with valid content
   - Do not edit any of the existing code
 */
-
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-var pairsByIndex; // Complete this statement
+function isItAPair(arr) {
+  if (Array.isArray(arr))
+    return arr.length === 2;
+  return false;
+}
+
+var pairsByIndex = pairsByIndexRaw.filter(isItAPair); // Complete this statement
 
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
