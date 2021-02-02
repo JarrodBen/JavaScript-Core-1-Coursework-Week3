@@ -19,6 +19,8 @@ var names = [
 
 var longer7StartsWithA = names.find(longerSevenStartsA => longerSevenStartsA[0] === "A" && longerSevenStartsA.length > 7)
 
+// simply put, it will find a name that is longer than 7 characters and starts with the letter A
+
 console.log(longer7StartsWithA);
 
 /* EXPECTED OUTPUT */

@@ -5,18 +5,14 @@
   The variable `lastFive` should contain the last five items of `everyone`
 */
 
-var everyone = [
-  "Daniel",
-  "Irina",
-  "Rares",
-  "Rukmini",
-  "Abdul",
-  "Austine",
-  "Swathi",
-];
+var everyone = ["Daniel", "Irina", "Rares", "Rukmini", "Abdul", "Austine", "Swathi"];
 
-var firstFive; // complete this statement
-var lastFive; // complete this statement
+// telling the slice to start and index number 0 and end at & excluding index number 5
+
+var firstFive = everyone.slice(0, 5); // complete this statement
+
+var lastFive = everyone.slice(2, 7);  // complete this statement
+// or everyone.slice(2) in this instance
 
 /* 
   DO NOT EDIT BELOW THIS LINE

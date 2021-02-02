@@ -7,9 +7,9 @@
 */
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-function isItAPair(arr) {
+function isItAPair(arr) { // function will check which numbers in the nested array has paired values
   if (Array.isArray(arr))
-    return arr.length === 2;
+    return arr.length === 2; // simply saying that the amount of parameters must be 2 values
   return false;
 }
 

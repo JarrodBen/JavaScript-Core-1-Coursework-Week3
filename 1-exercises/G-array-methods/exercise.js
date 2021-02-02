@@ -4,6 +4,8 @@
 */
 
 var numbers = [3, 2, 1];
+
+// function will sort the numbers in numerical order from ascending order
 var sortedNumbers = numbers.sort();// complete this statement
 
 /* 

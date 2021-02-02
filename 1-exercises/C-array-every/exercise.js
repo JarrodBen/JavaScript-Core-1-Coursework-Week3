@@ -6,7 +6,7 @@ var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
 
-function checksForStudents(name){
+function checksForStudents(name){ // function will check if it's only students within the group array
 
   return students.includes(name)
 

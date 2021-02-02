@@ -7,6 +7,7 @@
 var mentors = ["Daniel", "Irina", "Rares"];
 var students = ["Rukmini", "Abdul", "Austine", "Swathi"];
 
+// function will add (or concat) the students array to the end of the mentors array
 var everyone = mentors.concat(students); // complete this statement
 
 /* 
