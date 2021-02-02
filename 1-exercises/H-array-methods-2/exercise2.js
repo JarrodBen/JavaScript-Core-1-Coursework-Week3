@@ -7,7 +7,12 @@
   Tip: use the string method .split() and the array method .join()
 */
 
-function capitalise(str) {}
+function capitalise(str) {
+    let capitalSplit = str.split("", 1).join('').toUpperCase() + str.substr(1); 
+    /* will split the array to only capitalize the letter H of "Hello" 
+       and join the letters together again after it capitalizes */
+    return capitalSplit;
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
