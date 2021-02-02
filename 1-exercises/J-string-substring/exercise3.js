@@ -8,9 +8,15 @@
 
 let statement = "I do not like programming";
 
-let result = "";
+var str1 = statement.substring(0, 4)
+var str2 = statement.substring(8, statement.length);
 
+let result = str1.concat(str2);
 console.log(result);
+
+// let dessert = "ice cream and pancakes";
+// let newDessert = dessert.substring(0, 9);
+// console.log(newDessert);
 
 /* EXPECTED OUTPUT 
 
