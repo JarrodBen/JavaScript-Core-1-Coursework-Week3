@@ -8,13 +8,22 @@
 
 let statement = "I do not like programming";
 
-
+// Method 1 
 // declaring two variables and creating two substrings
+
+// Comment line 16 to 21 to test below method
+
 var str1 = statement.substring(0, 4) 
 var str2 = statement.substring(8, statement.length);
 
-let result = str1.concat(str2); // concatinating the two substrings to one string.
+let result = str1.concat(str2)
 console.log(result);
+
+// Method 2
+// Uncomment line 26 & 27
+
+// let result = statement.substring(0, 4) + statement.substring(8, statement.length);
+// console.log(result);
 
 /* EXPECTED OUTPUT 
 
