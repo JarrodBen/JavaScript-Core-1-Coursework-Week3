@@ -8,7 +8,6 @@
 var everyone = ["Daniel", "Irina", "Rares", "Rukmini", "Abdul", "Austine", "Swathi"];
 
 // telling the slice to start and index number 0 and end at & excluding index number 5
-
 var firstFive = everyone.slice(0, 5); // complete this statement
 
 var lastFive = everyone.slice(2, 7);  // complete this statement
