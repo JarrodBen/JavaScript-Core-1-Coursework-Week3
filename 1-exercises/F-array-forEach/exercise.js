@@ -9,16 +9,16 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
   function findMultiple3And5(num){
-    if (num % 3 === 0 && num % 5 === 0){ // checks if there are any numbers that are both the multiple of 3 & 5
+    if (num % 3 === 0 && num % 5 === 0){ // this checks if there are any numbers that are both the multiple of 3 & 5
 
       console.log("FizzBuzz"); // logs FizzBuzz if any number matches the criteria above
     } 
     
-    else if (num % 5 === 0) { // checks if there are any numbers that is a multiple of 5
+    else if (num % 5 === 0) { // this checks if there are any numbers that is a multiple of 5
       console.log("Buzz") // log Fizz if any numbers meet the criteria just above this line
     } 
     
-    else if (num % 3 === 0) { // checks if there are any numbers that is a multiple of 3
+    else if (num % 3 === 0) { // this checks if there are any numbers that is a multiple of 3
       console.log("Fizz") //log Buzz if any numbers meet the criteria just above this line
     } 
     

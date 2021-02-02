@@ -8,7 +8,7 @@
 
 var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
 
-function findNullVal(value){ // function will terminate once it finds a "null" value.
+function findNullVal(value){ // program will terminate once it finds a "null" value.
   return value === null;
 }
 

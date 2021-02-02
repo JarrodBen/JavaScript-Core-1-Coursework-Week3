@@ -4,7 +4,7 @@
 
 
 function timesNum100(numbers) {
-    return numbers * 100 // function will take a number from the array provided below and multiply it by 100 
+    return numbers * 100 // function will take a number and multiply it by 100 
 }
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
