@@ -6,7 +6,11 @@
   HINT: string and array methods that could be helpful (indexOf, filter)
 */
 
-function getLanes() {}
+function getLanes(name) {
+  var hasWordLane = name.filter(hasWordLane => hasWordLane.includes("Lane"));
+  // this will find a street that has the word Lane in it as well.
+  return hasWordLane;
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
