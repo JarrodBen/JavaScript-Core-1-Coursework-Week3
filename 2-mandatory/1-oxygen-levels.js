@@ -14,7 +14,7 @@
 
 function safeLevels(num) {
    var safeOxygen = num.find(num => (num.replace("%", "") > 19.5 && num.replace("%", "") < 23.5));
-   return safeOxygen
+   return safeOxygen;
 }
 /* ======= TESTS - DO NOT MODIFY ===== */
 
