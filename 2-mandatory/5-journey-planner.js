@@ -17,6 +17,8 @@
  Hint: search for string methods like Includes and IndexOf.
 */
 
+// this will check for the word code within the string.
+
 function checkCodeIsThere(checkCode) {
   let magicWord = "code";
   //edit code below
@@ -64,6 +66,10 @@ function checkCodeIsThere(checkCode) {
   
   Hint: Use the corresponding array method to split the array.
 */
+
+/* this will cut the 1st index value/data in the array 
+   and in this case it will remove "Tower Bridge" and display "tube" and "river boat"
+*/
 function getTransportModes(transportMode) {
   return transportMode.slice(1);
 }
@@ -83,6 +89,8 @@ function getTransportModes(transportMode) {
     
   Hint: Use the corresponding array method to decide if an element is member of an array.
 */
+
+// this will return the array with a suitable transport mode. 
 function isAccessibleByTransportMode(transportMode, transportAccessible) {
   return (transportMode.includes(transportAccessible));
 }
@@ -96,6 +104,8 @@ function isAccessibleByTransportMode(transportMode, transportAccessible) {
    - Returns the name of the location
       e.g: "Tower Bridge"
 */
+
+// this will return the array with a location name.
 function getLocationName(localName) {
   return localName [0];
 }
@@ -127,6 +137,8 @@ function getLocationName(localName) {
    
   Advanced challange: try to use arrow function when invoking an array method.
 */
+
+// this will filter a location with it's appropriate transport mode.
 function journeyPlanner(locations, transportMode) {
   return locations.filter(locations => locations.slice(1)
   .includes(transportMode)).map(locations => locations[0]);

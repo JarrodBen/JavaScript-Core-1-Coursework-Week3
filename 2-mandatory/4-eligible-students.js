@@ -9,7 +9,7 @@
 
 function eligibleStudents(studentNames) {
     var eligibleStudents = studentNames = studentNames.filter(student => student[1] >= 8).map (student => student[0]);
-    // this will filter the below array to find a student that has attended 8 or classes and will list the name in the array
+    // this will filter the below array to find students that has attended 8 or classes and will list the name in the array
     return eligibleStudents; 
 }
 

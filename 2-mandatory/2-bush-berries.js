@@ -22,7 +22,7 @@
 */
 
 function bushChecker(name) {
-  if (name.some (berryColour => berryColour != "pink")) { // will check if the colour of the berries on the bush are all pink
+  if (name.some (berryColour => berryColour != "pink")) { // this will check if the colour of the berries on the bush are all pink
     return "Toxic! Leave bush alone!";
   }
   else {

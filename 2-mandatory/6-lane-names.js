@@ -8,7 +8,7 @@
 
 function getLanes(name) {
   var hasWordLane = name.filter(hasWordLane => hasWordLane.includes("Lane"));
-  // this will find a street that has the word Lane in it as well.
+  // this will find a street name that has the word Lane in it as well.
   return hasWordLane;
 }
 

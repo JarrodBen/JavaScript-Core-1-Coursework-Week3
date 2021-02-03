@@ -17,7 +17,7 @@
 
 function colonisers(name) {
   var startsWithLetterA = name.filter(startsWithLetterA => startsWithLetterA.includes("family") && startsWithLetterA[0] === "A");
-  // this will find a name that starts with the letter A but also includes the word "family" as well.
+  // this will find a name that starts with the letter A and also includes the word "family" as well.
   return startsWithLetterA;
 }
 

@@ -14,7 +14,7 @@
 
 function safeLevels(num) {
    var safeOxygen = num.find(num => (num.replace("%", "") > 19.5 && num.replace("%", "") < 23.5));
-   // this will check if the oxygen levels of the planet is between 19.5% and 23.5% respectively
+   // this will check if the oxygen levels of the planet is between 19.5% and 23.5%.
    return safeOxygen;
 }
 /* ======= TESTS - DO NOT MODIFY ===== */
