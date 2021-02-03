@@ -11,8 +11,11 @@
     Some string methods that might help you here are .replace() and .substring(). 
 */
 
-function safeLevels() {}
 
+function safeLevels(num) {
+   var safeOxygen = num.find(num => (num.replace("%", "") > 19.5 && num.replace("%", "") < 23.5));
+   return safeOxygen
+}
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 const oxygenLevels1 = ["24.2%", "11.3%", "19.9%", "23.1%", "29.3%", "20.2%"];
