@@ -15,11 +15,15 @@
   
 */
 
+ main
 function colonisers(name) {
   var startsWithLetterA = name.filter(startsWithLetterA => startsWithLetterA.includes("family") && startsWithLetterA[0] === "A");
   // this will find a name that starts with the letter A and also includes the word "family" as well.
   return startsWithLetterA;
 }
+
+function getSettlers() {}
+ main
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
@@ -53,7 +57,7 @@ function test(test_name, actual, expected) {
   console.log(`${test_name}: ${status}`);
 }
 
-test("colonisers function works", colonisers(voyagers), [
+test("getSettlers function works", getSettlers(voyagers), [
   "Adam family",
   "Avery family",
   "Archer family",
